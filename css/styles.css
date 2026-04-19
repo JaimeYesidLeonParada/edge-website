@@ -349,3 +349,40 @@
     text-align: center;
     padding: 0 20px;
 }
+
+/* Mobile Menu Toggle (Hidden by default on Desktop) */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+/* Mobile Responsive Navigation */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show hamburger icon on mobile */
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        right: -100%; /* Hides the menu off-screen to the left */
+        width: 100%;
+        background-color: #ffffff;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: right 0.5s ease; /* Smooth sliding animation */
+    }
+
+    /* This class will be added by JavaScript to show the menu */
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+}
