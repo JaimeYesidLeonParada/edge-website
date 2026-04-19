@@ -1,11 +1,35 @@
-// Select the hamburger menu element and the navigation links container
-const menuToggle = document.querySelector('#mobile-menu');
-const navLinks = document.querySelector('.nav-links');
+// Function to asynchronously load HTML components
+async function loadComponents() {
+    try {
+        // Fetch and inject the header
+        const headerResponse = await fetch('components/header.html');
+        const headerHTML = await headerResponse.text();
+        document.getElementById('header-container').innerHTML = headerHTML;
 
-// Add a click event listener to the hamburger menu
-// This acts like an interrupt, waiting for the user's action
-menuToggle.addEventListener('click', function() {
-    // Toggle the 'active' class on the navigation links
-    // This triggers the CSS transition we defined earlier
-    navLinks.classList.toggle('active');
-});
+        // Fetch and inject the footer
+        const footerResponse = await fetch('components/footer.html');
+        const footerHTML = await footerResponse.text();
+        document.getElementById('footer-container').innerHTML = footerHTML;
+
+        // Initialize mobile menu ONLY AFTER the header has been injected
+        initMobileMenu();
+    } catch (error) {
+        console.error('Error loading components:', error);
+    }
+}
+
+// Function to handle the mobile hamburger menu logic
+function initMobileMenu() {
+    const menuToggle = document.querySelector('#mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    // Add event listener to the toggle button
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+    }
+}
+
+// Wait for the DOM to be fully loaded before running our script
+document.addEventListener('DOMContentLoaded', loadComponents);
