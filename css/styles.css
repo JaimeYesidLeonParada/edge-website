@@ -327,3 +327,25 @@
         max-width: 100%;
     }
 }
+
+/* Style for icons in cards */
+.card-icon {
+    font-size: 40px;
+    color: #0056b3;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.hero {
+    /* Replace with your image path once downloaded */
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+                url('../assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
