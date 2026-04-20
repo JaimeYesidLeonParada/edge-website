@@ -386,3 +386,30 @@
         margin: 15px 0;
     }
 }
+
+/* Language Toggle Button */
+.btn-lang {
+    background-color: transparent;
+    border: 2px solid #1a1a1a;
+    color: #1a1a1a;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: auto; /* Pushes the hamburger menu to the right */
+    margin-left: 20px;
+}
+
+.btn-lang:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Make sure it looks good on mobile */
+@media (max-width: 768px) {
+    .btn-lang {
+        margin-right: 15px;
+    }
+}

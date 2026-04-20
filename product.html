@@ -10,36 +10,35 @@
 <body>
     <div id="header-container"></div>
 
-    <main>
-        <main class="product-page">
+    <main class="product-page">
         <section class="product-header">
-            <h2>Our Core Technology</h2>
-            <p>Built for reliability in demanding environments.</p>
+            <h2 data-i18n="productHeaderTitle">Environmental Monitoring Station</h2>
+            <p data-i18n="productHeaderDesc">Real-time water quality analysis powered by Edge AI.</p>
         </section>
 
         <section class="features-grid">
             <div class="feature-card">
+                <i class="fas fa-water card-icon"></i>
+                <h3 data-i18n="feat1Title">Precision Water Sensors</h3>
+                <p data-i18n="feat1Desc">Integration with high-precision isolated boards for accurate pH, turbidity, and temperature data collection.</p>
+            </div>
+            
+            <div class="feature-card">
                 <i class="fas fa-microchip card-icon"></i>
-                <h3>Advanced Sensors</h3>
-                <p>High-precision data collection for critical monitoring.</p>
+                <h3 data-i18n="feat2Title">Robust Edge Processing</h3>
+                <p data-i18n="feat2Desc">Low-power microcontrollers with integrated SD storage ensuring no data is ever lost during field deployments.</p>
             </div>
             
             <div class="feature-card">
-                <i class="fas fa-brain card-icon"></i>
-                <h3>Edge Computing</h3>
-                <p>Local AI processing to reduce latency and bandwidth usage.</p>
-            </div>
-            
-            <div class="feature-card">
-                <i class="fas fa-network-wired card-icon"></i>
-                <h3>Reliable Connectivity</h3>
-                <p>Seamless data transmission via cellular and IoT protocols.</p>
+                <i class="fas fa-satellite-dish card-icon"></i>
+                <h3 data-i18n="feat3Title">Reliable Telemetry</h3>
+                <p data-i18n="feat3Desc">Continuous GPRS data transmission using robust cellular modems via standard IoT protocols like MQTT.</p>
             </div>
         </section>
     </main>
 
     <div id="footer-container"></div>
-
+    <script src="js/translations.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
