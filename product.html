@@ -11,31 +11,78 @@
     <div id="header-container"></div>
 
     <main class="product-page">
-        <section class="product-header">
-            <h2 data-i18n="productHeaderTitle">Environmental Monitoring Station</h2>
-            <p data-i18n="productHeaderDesc">Real-time water quality analysis powered by Edge AI.</p>
+        <section class="product-showcase alternate-layout">
+            <div class="product-container">
+                
+                <div class="product-visual">
+                    <img src="assets/smartwatch.jpg" alt="Assistive Smartwatch" class="product-image">
+                </div>
+
+                <div class="product-details">
+                    <span class="badge" data-i18n="starProductBadge">Flagship Product</span>
+                    <h2 data-i18n="watchMainTitle">Assistive Sound Awareness Watch</h2>
+                    <p class="product-tagline" data-i18n="watchTagline">Transforming environmental sounds into real-time haptic alerts.</p>
+                    
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <i class="fas fa-deaf"></i>
+                            <span data-i18n="watchSpec1">Accessibility First Design</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-wave-square"></i>
+                            <span data-i18n="watchSpec2">Edge AI Audio Processing</span>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-compress-arrows-alt"></i>
+                            <span data-i18n="watchSpec3">Precise Haptic Feedback</span>
+                        </div>
+                    </div>
+                    
+                    <p class="product-description" data-i18n="watchLongDesc">
+                        Designed to empower individuals with hearing impairments, this smartwatch uses low-latency local processing to identify critical sounds—like alarms, doorbells, or approaching vehicles—and instantly alerts the user through distinct vibration patterns.
+                    </p>
+                    
+                    <a href="contact.html" class="btn btn-primary" data-i18n="productQuoteBtn">Request a Quote</a>
+                </div>
+                
+            </div>
         </section>
 
-        <section class="features-grid">
-            <div class="feature-card">
-                <i class="fas fa-water card-icon"></i>
-                <h3 data-i18n="feat1Title">Precision Water Sensors</h3>
-                <p data-i18n="feat1Desc">Integration with high-precision isolated boards for accurate pH, turbidity, and temperature data collection.</p>
+
+    <section class="product-showcase">
+        <div class="product-container">
+            <div class="product-visual">
+                <img src="assets/estacion-monitoreo.jpg" alt="Environmental Monitoring Station" class="product-image">
             </div>
             
-            <div class="feature-card">
-                <i class="fas fa-microchip card-icon"></i>
-                <h3 data-i18n="feat2Title">Robust Edge Processing</h3>
-                <p data-i18n="feat2Desc">Low-power microcontrollers with integrated SD storage ensuring no data is ever lost during field deployments.</p>
+            <div class="product-details">
+                <h2 data-i18n="productMainTitle">Environmental Monitoring Station V1</h2>
+                <p class="product-tagline" data-i18n="productTagline">Complete water quality and environmental analysis.</p>
+                
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <i class="fas fa-vial"></i>
+                        <span data-i18n="specSensors">Atlas Scientific Pro Sensors</span>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fas fa-broadcast-tower"></i>
+                        <span data-i18n="specConnectivity">LTE SIM7076 / GPRS Telemetry</span>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fas fa-sd-card"></i>
+                        <span data-i18n="specStorage">Local SD Logging Backup</span>
+                    </div>
+                </div>
+                
+                <p class="product-description" data-i18n="productLongDesc">
+                    A robust, autonomous station designed for harsh environmental conditions, providing real-time data for critical decision-making.
+                </p>
+                
+                <a href="contact.html" class="btn btn-primary" data-i18n="productQuoteBtn">Request a Quote</a>
             </div>
-            
-            <div class="feature-card">
-                <i class="fas fa-satellite-dish card-icon"></i>
-                <h3 data-i18n="feat3Title">Reliable Telemetry</h3>
-                <p data-i18n="feat3Desc">Continuous GPRS data transmission using robust cellular modems via standard IoT protocols like MQTT.</p>
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
+</main>
 
     <div id="footer-container"></div>
     <script src="js/translations.js"></script>

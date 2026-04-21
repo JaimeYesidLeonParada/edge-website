@@ -29,7 +29,23 @@ const translations = {
         contactNameLabel: "Full Name",
         contactEmailLabel: "Email Address",
         contactMsgLabel: "Project Details",
-        contactBtn: "Send Message"
+        contactBtn: "Send Message",
+
+        productMainTitle: "Environmental Monitoring Station V1",
+        productTagline: "Advanced Water Quality & IoT Analytics.",
+        specSensors: "Atlas Scientific Pro Sensors",
+        specConnectivity: "LTE SIM7076 / GPRS Telemetry",
+        specStorage: "Local SD Logging Backup",
+        productLongDesc: "Engineered for high-precision monitoring in wetlands and industrial environments. Featuring isolated sensor interfaces (pH, Turbidity, Temperature) and reliable cellular connectivity via MQTT protocols.",
+        productQuoteBtn: "Request a Quote",
+
+        starProductBadge: "Flagship Product",
+        watchMainTitle: "Assistive Sound Awareness Watch",
+        watchTagline: "Transforming environmental sounds into real-time haptic alerts.",
+        watchSpec1: "Accessibility First Design",
+        watchSpec2: "Edge AI Audio Processing",
+        watchSpec3: "Precise Haptic Feedback",
+        watchLongDesc: "Designed to empower individuals with hearing impairments, this smartwatch uses low-latency local processing to identify critical sounds—like alarms, doorbells, or approaching vehicles—and instantly alerts the user through distinct vibration patterns.",
     },
     es: {
         // Navegación y General
@@ -59,6 +75,23 @@ const translations = {
         contactNameLabel: "Nombre Completo",
         contactEmailLabel: "Correo Electrónico",
         contactMsgLabel: "Detalles del Proyecto",
-        contactBtn: "Enviar Mensaje"
+        contactBtn: "Enviar Mensaje",
+
+        // Inside 'es' object:
+        productMainTitle: "Estación de Monitoreo Ambiental V1",
+        productTagline: "Analítica avanzada de calidad de agua e IoT.",
+        specSensors: "Sensores Pro Atlas Scientific",
+        specConnectivity: "Telemetría LTE SIM7076 / GPRS",
+        specStorage: "Respaldo Local en Tarjeta SD",
+        productLongDesc: "Diseñada para el monitoreo de alta precisión en humedales y entornos industriales. Cuenta con interfaces de sensores aisladas (pH, Turbidez, Temperatura) y conectividad celular confiable mediante protocolos MQTT.",
+        productQuoteBtn: "Solicitar Cotización",
+
+        starProductBadge: "Producto Estrella",
+        watchMainTitle: "Reloj Asistivo de Conciencia Sonora",
+        watchTagline: "Transformando sonidos ambientales en alertas hápticas en tiempo real.",
+        watchSpec1: "Diseño Centrado en Accesibilidad",
+        watchSpec2: "Procesamiento de Audio con Edge AI",
+        watchSpec3: "Respuesta Háptica Precisa",
+        watchLongDesc: "Diseñado para empoderar a personas con discapacidad auditiva, este reloj inteligente utiliza procesamiento local de baja latencia para identificar sonidos críticos —como alarmas, timbres o vehículos acercándose— y alerta al usuario instantáneamente mediante patrones de vibración distintivos.",
     }
 };
