@@ -548,3 +548,34 @@
         flex-direction: column-reverse; /* Keeps the text on top of the image on mobile */
     }
 }
+
+/* Mobile Responsive Fixes for Product Page */
+@media (max-width: 768px) {
+    /* Reduce padding on the overall section */
+    .product-showcase {
+        padding: 40px 15px;
+    }
+
+    /* Shrink the gap between the text and the image */
+    .product-container {
+        gap: 20px;
+    }
+
+    /* Restrict the maximum height of images strictly for mobile */
+    .product-image {
+        max-height: 300px;
+        margin: 15px auto; /* Adds a bit of breathing room */
+    }
+
+    /* Stack the specifications in a single column to prevent squeezing */
+    .specs-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    /* Ensure the alternate layout keeps text on top and image on bottom for readability */
+    .alternate-layout .product-container {
+        flex-direction: column-reverse;
+    }
+}
