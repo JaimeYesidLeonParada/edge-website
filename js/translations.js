@@ -46,6 +46,13 @@ const translations = {
         watchSpec2: "Edge AI Audio Processing",
         watchSpec3: "Precise Haptic Feedback",
         watchLongDesc: "Designed to empower individuals with hearing impairments, this smartwatch uses low-latency local processing to identify critical sounds—like alarms, doorbells, or approaching vehicles—and instantly alerts the user through distinct vibration patterns.",
+
+        navAbout: "About",
+        aboutTitle: "Engineering the Future of Edge AI",
+        aboutSubtitle: "We build robust IoT hardware for real-world impact.",
+        missionTitle: "Our Mission",
+        missionText: "At EDGE, we believe that critical decision-making requires precise, real-time data. Our engineering team specializes in developing autonomous hardware solutions capable of thriving in harsh environments. From safeguarding vital ecosystems like wetlands with advanced water quality telemetry, to creating assistive technologies that process data locally, we bridge the gap between complex embedded systems and actionable intelligence.",
+        visionText: "Our focus is on pushing the boundaries of what local microcontrollers can achieve. By integrating high-precision sensors with cellular protocols, we ensure that no data is ever out of reach, no matter how remote the deployment.",
     },
     es: {
         // Navegación y General
@@ -93,5 +100,12 @@ const translations = {
         watchSpec2: "Procesamiento de Audio con Edge AI",
         watchSpec3: "Respuesta Háptica Precisa",
         watchLongDesc: "Diseñado para empoderar a personas con discapacidad auditiva, este reloj inteligente utiliza procesamiento local de baja latencia para identificar sonidos críticos —como alarmas, timbres o vehículos acercándose— y alerta al usuario instantáneamente mediante patrones de vibración distintivos.",
+
+        navAbout: "Nosotros",
+        aboutTitle: "Ingeniería para el futuro de Edge AI",
+        aboutSubtitle: "Construimos hardware IoT robusto para un impacto en el mundo real.",
+        missionTitle: "Nuestra Misión",
+        missionText: "En EDGE, creemos que la toma de decisiones críticas requiere datos precisos en tiempo real. Nuestro equipo de ingeniería se especializa en desarrollar soluciones de hardware autónomas capaces de operar en entornos hostiles. Desde proteger ecosistemas vitales como los humedales con telemetría avanzada de calidad de agua, hasta crear tecnologías asistivas que procesan datos localmente, cerramos la brecha entre los sistemas embebidos complejos y la inteligencia procesable.",
+        visionText: "Nuestro enfoque es expandir los límites de lo que pueden lograr los microcontroladores locales. Al integrar sensores de alta precisión con protocolos celulares, aseguramos que ningún dato esté fuera de alcance, sin importar cuán remoto sea el despliegue.",
     }
 };
