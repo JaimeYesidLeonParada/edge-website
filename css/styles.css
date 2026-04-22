@@ -111,17 +111,6 @@
     transform: translateY(-2px); /* Subtle lift effect on hover */
 }
 
-.btn-secondary {
-    background-color: transparent;
-    color: #0056b3;
-    border: 2px solid #0056b3;
-}
-
-.btn-secondary:hover {
-    background-color: #f0f7ff;
-    transform: translateY(-2px);
-}
-
 /* Product Page Layout */
 .product-page {
     padding: 60px 20px;
@@ -645,5 +634,105 @@
     }
     .core-icon {
         font-size: 60px;
+    }
+}
+
+/* Home Page Styles */
+.hero-section {
+    background: linear-gradient(135deg, #0a192f 0%, #112240 100%);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #8892b0;
+    max-width: 700px;
+    margin: 20px auto 40px;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Botón Secundario - Actualizado para mayor visibilidad */
+.btn-secondary {
+    background-color: #ffffff; /* Fondo blanco sólido */
+    border: 2px solid #ffffff;
+    color: #0056b3; /* Texto azul corporativo para hacer contraste */
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.85); /* Se vuelve un poco transparente al pasar el mouse */
+    color: #003d82; /* El texto se oscurece ligeramente */
+}
+
+.solutions-section {
+    padding: 80px 20px;
+    background-color: #f8f9fa;
+}
+
+.solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.solution-card {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.solution-card:hover {
+    transform: translateY(-5px);
+}
+
+.solution-icon {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.solution-card h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.solution-card p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.link-arrow {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.link-arrow:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Hero Fixes */
+@media (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column;
     }
 }

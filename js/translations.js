@@ -60,6 +60,18 @@ const translations = {
         protoSpec2: "Firmware & Software Integration",
         protoSpec3: "3D Modeling & Enclosures",
         protoLongDesc: "We transform your ideas into functional electronic devices. Our end-to-end prototyping service covers everything from schematic design and PCB layout to firmware programming and rapid enclosure manufacturing using 3D printing.",
+
+        homeHeroTitle: "Next-Generation Hardware for a Connected World",
+        homeHeroSubtitle: "Zonix bridges the gap between physical environments and actionable intelligence through Edge AI and robust IoT systems.",
+        homeBtnProducts: "Explore Products",
+        homeBtnAbout: "Our Vision",
+        homeCard1Title: "Assistive Technology",
+        homeCard1Desc: "Wearable Edge AI devices designed to empower individuals with hearing impairments through real-time haptic alerts.",
+        homeCard2Title: "Environmental Telemetry",
+        homeCard2Desc: "Autonomous monitoring stations engineered for wetlands and harsh environments, delivering precise sensor data via cellular networks.",
+        homeCard3Title: "Custom Prototyping",
+        homeCard3Desc: "End-to-end hardware development, from multi-layer PCB design to firmware integration and 3D enclosure modeling.",
+        homeLearnMore: "Learn more",
     },
     es: {
         // Navegación y General
@@ -121,5 +133,17 @@ const translations = {
         protoSpec2: "Integración de Firmware y Software",
         protoSpec3: "Modelado 3D y Carcasas",
         protoLongDesc: "Transformamos tus ideas en dispositivos electrónicos funcionales. Nuestro servicio integral de prototipado abarca desde el diseño de esquemáticos y layout de PCB hasta la programación de firmware y la fabricación rápida de carcasas mediante impresión 3D.",
+
+        homeHeroTitle: "Hardware de Próxima Generación para un Mundo Conectado",
+        homeHeroSubtitle: "Zonix cierra la brecha entre los entornos físicos y la inteligencia procesable a través de Edge AI y sistemas IoT robustos.",
+        homeBtnProducts: "Explorar Productos",
+        homeBtnAbout: "Nuestra Visión",
+        homeCard1Title: "Tecnología Asistiva",
+        homeCard1Desc: "Dispositivos portátiles con Edge AI diseñados para empoderar a personas con discapacidad auditiva mediante alertas hápticas en tiempo real.",
+        homeCard2Title: "Telemetría Ambiental",
+        homeCard2Desc: "Estaciones de monitoreo autónomas diseñadas para humedales y entornos hostiles, entregando datos precisos de sensores vía redes celulares.",
+        homeCard3Title: "Prototipado a Medida",
+        homeCard3Desc: "Desarrollo integral de hardware, desde diseño de PCBs multicapa hasta integración de firmware y modelado 3D de carcasas.",
+        homeLearnMore: "Conocer más",
     }
 };
