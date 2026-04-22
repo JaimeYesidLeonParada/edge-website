@@ -53,6 +53,13 @@ const translations = {
         missionTitle: "Our Mission",
         missionText: "At EDGE, we believe that critical decision-making requires precise, real-time data. Our engineering team specializes in developing autonomous hardware solutions capable of thriving in harsh environments. From safeguarding vital ecosystems like wetlands with advanced water quality telemetry, to creating assistive technologies that process data locally, we bridge the gap between complex embedded systems and actionable intelligence.",
         visionText: "Our focus is on pushing the boundaries of what local microcontrollers can achieve. By integrating high-precision sensors with cellular protocols, we ensure that no data is ever out of reach, no matter how remote the deployment.",
+
+        protoMainTitle: "Custom Electronic Prototyping",
+        protoTagline: "From initial concept to production-ready hardware.",
+        protoSpec1: "Multi-layer PCB Design",
+        protoSpec2: "Firmware & Software Integration",
+        protoSpec3: "3D Modeling & Enclosures",
+        protoLongDesc: "We transform your ideas into functional electronic devices. Our end-to-end prototyping service covers everything from schematic design and PCB layout to firmware programming and rapid enclosure manufacturing using 3D printing.",
     },
     es: {
         // Navegación y General
@@ -107,5 +114,12 @@ const translations = {
         missionTitle: "Nuestra Misión",
         missionText: "En EDGE, creemos que la toma de decisiones críticas requiere datos precisos en tiempo real. Nuestro equipo de ingeniería se especializa en desarrollar soluciones de hardware autónomas capaces de operar en entornos hostiles. Desde proteger ecosistemas vitales como los humedales con telemetría avanzada de calidad de agua, hasta crear tecnologías asistivas que procesan datos localmente, cerramos la brecha entre los sistemas embebidos complejos y la inteligencia procesable.",
         visionText: "Nuestro enfoque es expandir los límites de lo que pueden lograr los microcontroladores locales. Al integrar sensores de alta precisión con protocolos celulares, aseguramos que ningún dato esté fuera de alcance, sin importar cuán remoto sea el despliegue.",
+
+        protoMainTitle: "Prototipado Electrónico a Medida",
+        protoTagline: "Del concepto inicial al hardware listo para producción.",
+        protoSpec1: "Diseño de PCBs Multicapa",
+        protoSpec2: "Integración de Firmware y Software",
+        protoSpec3: "Modelado 3D y Carcasas",
+        protoLongDesc: "Transformamos tus ideas en dispositivos electrónicos funcionales. Nuestro servicio integral de prototipado abarca desde el diseño de esquemáticos y layout de PCB hasta la programación de firmware y la fabricación rápida de carcasas mediante impresión 3D.",
     }
 };
