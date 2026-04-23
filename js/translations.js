@@ -50,10 +50,12 @@ const translations = {
         navAbout: "About",
         aboutTitle: "Engineering the Future of Edge AI",
         aboutSubtitle: "We build robust IoT hardware for real-world impact.",
+       
         missionTitle: "Our Mission",
-        missionText: "At EDGE, we believe that critical decision-making requires precise, real-time data. Our engineering team specializes in developing autonomous hardware solutions capable of thriving in harsh environments. From safeguarding vital ecosystems like wetlands with advanced water quality telemetry, to creating assistive technologies that process data locally, we bridge the gap between complex embedded systems and actionable intelligence.",
-        visionText: "Our focus is on pushing the boundaries of what local microcontrollers can achieve. By integrating high-precision sensors with cellular protocols, we ensure that no data is ever out of reach, no matter how remote the deployment.",
-
+        missionText: "At EDGE, we believe technology should be a bridge, not a barrier. Our mission is to democratize access to hardware and Edge AI solutions, developing autonomous devices that positively impact society at all levels. From safeguarding vital ecosystems with precision telemetry, to creating assistive technologies for people with disabilities and efficient tools for businesses with limited budgets or no internet access. We bridge the gap between complex embedded systems and actionable intelligence, expanding the boundaries of local microcontrollers to ensure the power of data is within everyone's reach, regardless of the environment or the challenge.",
+        visionTitle: "Our Vision",
+        visionText: "Our vision is to bring the power of Artificial Intelligence to the physical world, creating tangible electronic devices that transform people's daily lives, optimize businesses, and revolutionize industry. We project ourselves as the strategic ally that drives the technological ecosystem, helping startups and growing businesses materialize their ideas through rapid prototyping and end-to-end development services. We aim to be the engine that turns complex concepts into functional hardware, validating developments quickly and accelerating technological progress for all.",
+        
         protoMainTitle: "Custom Electronic Prototyping",
         protoTagline: "From initial concept to production-ready hardware.",
         protoSpec1: "Multi-layer PCB Design",
@@ -123,10 +125,12 @@ const translations = {
         navAbout: "Nosotros",
         aboutTitle: "Ingeniería para el futuro de Edge AI",
         aboutSubtitle: "Construimos hardware IoT robusto para un impacto en el mundo real.",
+        
         missionTitle: "Nuestra Misión",
-        missionText: "En EDGE, creemos que la toma de decisiones críticas requiere datos precisos en tiempo real. Nuestro equipo de ingeniería se especializa en desarrollar soluciones de hardware autónomas capaces de operar en entornos hostiles. Desde proteger ecosistemas vitales como los humedales con telemetría avanzada de calidad de agua, hasta crear tecnologías asistivas que procesan datos localmente, cerramos la brecha entre los sistemas embebidos complejos y la inteligencia procesable.",
-        visionText: "Nuestro enfoque es expandir los límites de lo que pueden lograr los microcontroladores locales. Al integrar sensores de alta precisión con protocolos celulares, aseguramos que ningún dato esté fuera de alcance, sin importar cuán remoto sea el despliegue.",
-
+        missionText: "En EDGE, creemos que la tecnología debe ser un puente, no una barrera. Nuestra misión es democratizar el acceso a soluciones de hardware y Edge AI, desarrollando dispositivos autónomos que impacten positivamente a la sociedad en todos sus niveles. Desde proteger ecosistemas vitales con telemetría de precisión, hasta crear tecnologías asistivas para personas con discapacidad y herramientas eficientes para negocios con presupuestos limitados o sin acceso a internet. Cerramos la brecha entre los sistemas embebidos complejos y la inteligencia procesable, expandiendo los límites de los microcontroladores locales para asegurar que el poder de los datos esté al alcance de todos, sin importar cuán remoto sea el entorno o el desafío.",
+        visionTitle: "Nuestra Visión",
+        visionText: "Nuestra visión es llevar el poder de la Inteligencia Artificial al mundo físico, creando dispositivos electrónicos tangibles que transformen la vida diaria de las personas, optimicen las empresas y revolucionen la industria. Nos proyectamos como el aliado estratégico que impulsa el ecosistema tecnológico, ayudando a startups y negocios en crecimiento a materializar sus ideas a través de servicios de prototipado rápido y desarrollo integral. Queremos ser el motor que convierte conceptos complejos en hardware funcional, validando desarrollos ágilmente y acelerando el progreso tecnológico para todos.",
+        
         protoMainTitle: "Prototipado Electrónico a Medida",
         protoTagline: "Del concepto inicial al hardware listo para producción.",
         protoSpec1: "Diseño de PCBs Multicapa",
